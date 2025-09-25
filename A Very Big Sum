@@ -43,7 +43,7 @@ public class Solution {
             .map(Long::parseLong)
             .collect(toList());
 
-        long result = Result.aVeryBigSum(ar);
+        long result = Result.aVeryBigSum(arr);
 
         bufferedWriter.write(String.valueOf(result));
         bufferedWriter.newLine();
